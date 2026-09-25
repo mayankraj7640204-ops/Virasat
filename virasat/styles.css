@@ -359,11 +359,13 @@ button { border:0; font:inherit; }
   font-family: 'Inter', system-ui, sans-serif;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  clip-path: inset(0 0 100% 0);
+  transition: clip-path 0.7s cubic-bezier(0.77, 0, 0.175, 1), opacity 0.5s ease, visibility 0.7s;
 }
 .auth-modal-overlay.is-open {
   opacity: 1;
   visibility: visible;
+  clip-path: inset(0 0 0 0);
 }
 
 .auth-modal-header {
@@ -421,11 +423,21 @@ button { border:0; font:inherit; }
   color: #fff;
   line-height: 1;
   letter-spacing: -2px;
-  transition: opacity 0.3s;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
 }
 .auth-nav a:hover {
-  opacity: 0.6;
+  opacity: 0.6 !important;
 }
+.auth-modal-overlay.is-open .auth-nav a {
+  opacity: 1;
+  transform: translateY(0);
+}
+.auth-modal-overlay.is-open .auth-nav a:nth-child(1) { transition-delay: 0.3s; }
+.auth-modal-overlay.is-open .auth-nav a:nth-child(2) { transition-delay: 0.4s; }
+.auth-modal-overlay.is-open .auth-nav a:nth-child(3) { transition-delay: 0.5s; }
+.auth-modal-overlay.is-open .auth-nav a:nth-child(4) { transition-delay: 0.6s; }
 
 .auth-form-container {
   display: flex;
