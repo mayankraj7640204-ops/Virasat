@@ -315,3 +315,38 @@ document.addEventListener("DOMContentLoaded", () => {
   setupSightSlider();
   requestTick();
 });
+
+// Chapters Modal Interaction Logic
+const openChaptersBtn = document.getElementById('open-chapters');
+const closeChaptersBtn = document.getElementById('close-chapters');
+const chaptersModal = document.getElementById('chapters-modal');
+
+if (openChaptersBtn && chaptersModal) {
+  openChaptersBtn.addEventListener('click', () => {
+    chaptersModal.classList.add('is-open');
+    document.body.style.overflow = 'hidden'; // Lock background scroll
+  });
+}
+
+if (closeChaptersBtn && chaptersModal) {
+  closeChaptersBtn.addEventListener('click', () => {
+    chaptersModal.classList.remove('is-open');
+    document.body.style.overflow = ''; // Restore scroll
+  });
+}
+
+// Close on clicking outside container
+chaptersModal.addEventListener('click', (e) => {
+  if (e.target === chaptersModal) {
+    chaptersModal.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+});
+
+// Interactive Chapter Cards (Simulating navigation or launching feature views)
+document.querySelectorAll('.chapter-card').forEach(card => {
+  card.addEventListener('click', () => {
+    const chapterId = card.getAttribute('data-chapter');
+    alert(`Launching Virasat Feature Module: Chapter 0${chapterId} - Initializing immersive ecosystem...`);
+  });
+});

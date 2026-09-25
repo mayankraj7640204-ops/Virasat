@@ -48,10 +48,8 @@
               </div>
             </div>
             
-            <button class="hamburger-menu" aria-label="Open menu" style="background: transparent; border: none; cursor: pointer; display: flex; flex-direction: column; gap: 6px; padding: 0;">
-              <span style="display: block; width: 24px; height: 2px; background: rgba(253,241,225,0.86); transition: 0.3s;"></span>
-              <span style="display: block; width: 24px; height: 2px; background: rgba(253,241,225,0.86); transition: 0.3s;"></span>
-              <span style="display: block; width: 16px; height: 2px; background: rgba(253,241,225,0.86); transition: 0.3s;"></span>
+            <button class="chapters-trigger-btn" id="open-chapters" aria-label="Open chapters menu">
+              <span></span><span></span><span></span>
             </button>
           </div>
         </header>
@@ -177,5 +175,44 @@
     </div>
   </footer>
 </main>
+<div class="chapters-modal-overlay" id="chapters-modal">
+  <div class="chapters-modal-container">
+    <button class="chapters-close-btn" id="close-chapters">×</button>
+    <div class="chapters-header">
+      <span class="chapters-subtitle">VIRASAT JOURNEY</span>
+      <h2>EXPLORE THE CHAPTERS</h2>
+    </div>
+    <div class="chapters-stack">
+      <!-- Chapter 1 -->
+      <div class="chapter-card" data-chapter="1">
+        <span class="chapter-num">CHAPTER 01</span>
+        <h3>The Archive of Monuments</h3>
+        <p>Interactive 3D structural mapping and historical reconstruction of India's architectural marvels.</p>
+        <span class="chapter-explore">EXPLORE →</span>
+      </div>
+      <!-- Chapter 2 -->
+      <div class="chapter-card" data-chapter="2">
+        <span class="chapter-num">CHAPTER 02</span>
+        <h3>Kathakar AI Guide</h3>
+        <p>Conversational lore and historical narratives powered by Google Gemini, speaking fluent local folklore.</p>
+        <span class="chapter-explore">EXPLORE →</span>
+      </div>
+      <!-- Chapter 3 -->
+      <div class="chapter-card" data-chapter="3">
+        <span class="chapter-num">CHAPTER 03</span>
+        <h3>Lipika Script Lens</h3>
+        <p>Real-time optical character recognition decoding ancient Brahmi, Pali, and Sanskrit stone inscriptions.</p>
+        <span class="chapter-explore">EXPLORE →</span>
+      </div>
+      <!-- Chapter 4 -->
+      <div class="chapter-card" data-chapter="4">
+        <span class="chapter-num">CHAPTER 04</span>
+        <h3>Blockchain Yatra Passports</h3>
+        <p>Cryptographic digital stamps and NFTs verifying your journey across India's cultural corridors.</p>
+        <span class="chapter-explore">EXPLORE →</span>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
