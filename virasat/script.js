@@ -78,7 +78,7 @@ window.addEventListener("load", () => {
   if (loader) {
     setTimeout(() => {
       loader.classList.add("is-hidden");
-    }, 600); // 600ms minimum display time for visual feedback
+    }, 1500); // Increased to 1500ms so it is definitely noticeable
   }
 });
 
