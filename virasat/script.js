@@ -19,7 +19,12 @@ const translations = {
     chap6Num: "CHAPTER 06", chap6Title: "Vyanjan Spice Route Scanner", chap6Desc: "AI computer vision breaking down regional culinary history and ancient spice trade origins.",
     chap7Num: "CHAPTER 07", chap7Title: "Parampara Lore Quests", chap7Desc: "Geo-fenced gamified heritage exploration unlocking digital rewards and local artisan discounts.",
     chap8Num: "CHAPTER 08", chap8Title: "Kala-Kriti Digital Try-On", chap8Desc: "AR body segmentation allowing tourists to digitally drape regional handloom textiles and weaves.",
-    getStarted: "Get Started"
+    getStarted: "Get Started",
+    authClose: "[ CLOSE ]", authWork: "Work", authStudio: "Studio", authLab: "Lab", authContact: "Contact",
+    authJoinTitle: "Join Virasat", authJoinDesc: "Unlock personalized heritage journeys and artifacts.", authEmail: "EMAIL ADDRESS",
+    authCookieTitle: "A long time ago, in a browser far far away...", authCookieDesc: "We use cookies to understand how the site performs – nothing sinister, no dark side stuff.",
+    authCookieAccept: "MAY THE COOKIES BE WITH YOU", authCookieDecline: "I'LL PASS, THANKS",
+    authPrivacy: "PRIVACY POLICY", authSupport: "SUPPORT"
   },
   hi: {
     logo: "भारत", navHome: "मुख्य पृष्ठ", navAbout: "हमारे बारे में", navGallery: "गैलरी", navFeatures: "विशेषताएं", heroTitle: "विरासत",
@@ -41,7 +46,12 @@ const translations = {
     chap6Num: "अध्याय 06", chap6Title: "व्यंजन मसाला मार्ग स्कैनर", chap6Desc: "एआई कंप्यूटर विज़न क्षेत्रीय पाक इतिहास और प्राचीन मसाला व्यापार की उत्पत्ति को डिकोड करता है।",
     chap7Num: "अध्याय 07", chap7Title: "परंपरा विद्या अन्वेषण", chap7Desc: "जियो-फेंस्ड गामिफाइड हेरिटेज एक्सप्लोरेशन डिजिटल रिवॉर्ड्स और स्थानीय कारीगर छूट अनलॉक करता है।",
     chap8Num: "अध्याय 08", chap8Title: "कला-कृति डिजिटल ट्राई-ऑन", chap8Desc: "एआर बॉडी सेगमेंटेशन जिससे पर्यटक क्षेत्रीय हथकरघा वस्त्रों को डिजिटल रूप से पहन सकते हैं।",
-    getStarted: "शुरू करें"
+    getStarted: "शुरू करें",
+    authClose: "[ बंद करें ]", authWork: "कार्य", authStudio: "स्टूडियो", authLab: "लैब", authContact: "संपर्क",
+    authJoinTitle: "विरासत से जुड़ें", authJoinDesc: "व्यक्तिगत विरासत यात्राओं और कलाकृतियों को अनलॉक करें।", authEmail: "ईमेल पता",
+    authCookieTitle: "बहुत समय पहले, एक बहुत दूर के ब्राउज़र में...", authCookieDesc: "हम यह समझने के लिए कुकीज़ का उपयोग करते हैं कि साइट कैसा प्रदर्शन करती है - कुछ भी भयावह नहीं, कोई डार्क साइड का काम नहीं।",
+    authCookieAccept: "कुकीज़ आपके साथ रहें", authCookieDecline: "मैं पास करूँगा, धन्यवाद",
+    authPrivacy: "गोपनीयता नीति", authSupport: "सहायता"
   },
   kn: {
     logo: "ಭಾರತ", navHome: "ಮುಖಪುಟ", navAbout: "ನಮ್ಮ ಬಗ್ಗೆ", navGallery: "ಗ್ಯಾಲರಿ", navFeatures: "ವೈಶಿಷ್ಟ್ಯಗಳು", heroTitle: "ವಿರಾಸತ್",
@@ -63,7 +73,12 @@ const translations = {
     chap6Num: "ಅಧ್ಯಾಯ 06", chap6Title: "ವ್ಯಂಜನ್ ಮಸಾಲೆ ಮಾರ್ಗ ಸ್ಕ್ಯಾನರ್", chap6Desc: "AI ಕಂಪ್ಯೂಟರ್ ದೃಷ್ಟಿ ಪ್ರಾದೇಶಿಕ ಪಾಕಶಾಲೆಯ ಇತಿಹಾಸ ಮತ್ತು ಪ್ರಾಚೀನ ಮಸಾಲೆ ವ್ಯಾಪಾರದ ಮೂಲವನ್ನು ಡಿಕೋಡ್ ಮಾಡುತ್ತದೆ.",
     chap7Num: "ಅಧ್ಯಾಯ 07", chap7Title: "ಪರಂಪರಾ ಇತಿಹಾಸದ ಕ್ವೆಸ್ಟ್‌ಗಳು", chap7Desc: "ಜಿಯೋ-ಫೆನ್ಸ್ಡ್ ಗ್ಯಾಮಿಫೈಡ್ ಹೆರಿಟೇಜ್ ಅನ್ವೇಷಣೆಯು ಡಿಜಿಟಲ್ ಪ್ರತಿಫಲಗಳು ಮತ್ತು ಸ್ಥಳೀಯ ಕುಶಲಕರ್ಮಿಗಳ ರಿಯಾಯಿತಿಗಳನ್ನು ಅನ್ಲಾಕ್ ಮಾಡುತ್ತದೆ.",
     chap8Num: "ಅಧ್ಯಾಯ 08", chap8Title: "ಕಲಾ-ಕೃತಿ ಡಿಜಿಟಲ್ ಟ್ರೈ-ಆನ್", chap8Desc: "ಪ್ರಾದೇಶಿಕ ಕೈಮಗ್ಗದ ಜವಳಿಗಳನ್ನು ಡಿಜಿಟಲ್ ಆಗಿ ಧರಿಸಲು ಪ್ರವಾಸಿಗರಿಗೆ ಅವಕಾಶ ನೀಡುವ AR ದೇಹ ವಿಭಾಗ.",
-    getStarted: "ಪ್ರಾರಂಭಿಸಿ"
+    getStarted: "ಪ್ರಾರಂಭಿಸಿ",
+    authClose: "[ ಮುಚ್ಚಿ ]", authWork: "ಕೆಲಸ", authStudio: "ಸ್ಟುಡಿಯೋ", authLab: "ಲ್ಯಾಬ್", authContact: "ಸಂಪರ್ಕಿಸಿ",
+    authJoinTitle: "ವಿರಾಸತ್ ಸೇರಿ", authJoinDesc: "ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ ಪರಂಪರೆಯ ಪ್ರಯಾಣಗಳು ಮತ್ತು ಕಲಾಕೃತಿಗಳನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ.", authEmail: "ಇಮೇಲ್ ವಿಳಾಸ",
+    authCookieTitle: "ಬಹಳ ಹಿಂದೆಯೇ, ದೂರದ ಬ್ರೌಸರ್‌ನಲ್ಲಿ...", authCookieDesc: "ಸೈಟ್ ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನಾವು ಕುಕೀಗಳನ್ನು ಬಳಸುತ್ತೇವೆ - ಕೆಟ್ಟದ್ದೇನೂ ಇಲ್ಲ, ಯಾವುದೇ ಡಾರ್ಕ್ ಸೈಡ್ ವಿಷಯಗಳಿಲ್ಲ.",
+    authCookieAccept: "ಕುಕೀಗಳು ನಿಮ್ಮೊಂದಿಗೆ ಇರಲಿ", authCookieDecline: "ನಾನು ಪಾಸ್ ಮಾಡುತ್ತೇನೆ, ಧನ್ಯವಾದಗಳು",
+    authPrivacy: "ಗೌಪ್ಯತೆ ನೀತಿ", authSupport: "ಬೆಂಬಲ"
   },
   pa: {
     logo: "ਭਾਰਤ", navHome: "ਮੁੱਖ ਪੰਨਾ", navAbout: "ਸਾਡੇ ਬਾਰੇ", navGallery: "ਗੈਲਰੀ", navFeatures: "ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ", heroTitle: "ਵਿਰਾਸਤ",
@@ -85,7 +100,12 @@ const translations = {
     chap6Num: "ਅਧਿਆਇ 06", chap6Title: "ਵਿਅੰਜਨ ਮਸਾਲਾ ਰੂਟ ਸਕੈਨਰ", chap6Desc: "AI ਕੰਪਿਊਟਰ ਵਿਜ਼ਨ ਖੇਤਰੀ ਰਸੋਈ ਇਤਿਹਾਸ ਅਤੇ ਪ੍ਰਾਚੀਨ ਮਸਾਲਾ ਵਪਾਰ ਦੇ ਮੂਲ ਨੂੰ ਡੀਕੋਡ ਕਰਦਾ ਹੈ।",
     chap7Num: "ਅਧਿਆਇ 07", chap7Title: "ਪਰੰਪਰਾ ਇਤਿਹਾਸ ਦੀਆਂ ਖੋਜਾਂ", chap7Desc: "ਜੀਓ-ਫੈਂਸਡ ਗੇਮੀਫਾਈਡ ਹੈਰੀਟੇਜ ਖੋਜ ਡਿਜੀਟਲ ਇਨਾਮ ਅਤੇ ਸਥਾਨਕ ਕਾਰੀਗਰਾਂ ਦੀਆਂ ਛੋਟਾਂ ਨੂੰ ਅਨਲੌਕ ਕਰਦੀ ਹੈ।",
     chap8Num: "ਅਧਿਆਇ 08", chap8Title: "ਕਲਾ-ਕ੍ਰਿਤੀ ਡਿਜੀਟਲ ਟਰਾਈ-ਆਨ", chap8Desc: "AR ਸਰੀਰ ਵਿਭਾਜਨ ਜੋ ਸੈਲਾਨੀਆਂ ਨੂੰ ਡਿਜ਼ੀਟਲ ਤੌਰ 'ਤੇ ਖੇਤਰੀ ਹੈਂਡਲੂਮ ਟੈਕਸਟਾਈਲ ਪਹਿਨਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ।",
-    getStarted: "ਸ਼ੁਰੂ ਕਰੋ"
+    getStarted: "ਸ਼ੁਰੂ ਕਰੋ",
+    authClose: "[ ਬੰਦ ਕਰੋ ]", authWork: "ਕੰਮ", authStudio: "ਸਟੂਡੀਓ", authLab: "ਲੈਬ", authContact: "ਸੰਪਰਕ",
+    authJoinTitle: "ਵਿਰਾਸਤ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ", authJoinDesc: "ਵਿਅਕਤੀਗਤ ਵਿਰਾਸਤੀ ਯਾਤਰਾਵਾਂ ਅਤੇ ਕਲਾਕ੍ਰਿਤੀਆਂ ਨੂੰ ਅਨਲੌਕ ਕਰੋ।", authEmail: "ਈਮੇਲ ਪਤਾ",
+    authCookieTitle: "ਬਹੁਤ ਸਮਾਂ ਪਹਿਲਾਂ, ਇੱਕ ਬਹੁਤ ਦੂਰ ਦੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ...", authCookieDesc: "ਅਸੀਂ ਇਹ ਸਮਝਣ ਲਈ ਕੂਕੀਜ਼ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਾਂ ਕਿ ਸਾਈਟ ਕਿਵੇਂ ਪ੍ਰਦਰਸ਼ਨ ਕਰਦੀ ਹੈ - ਕੁਝ ਵੀ ਭਿਆਨਕ ਨਹੀਂ, ਕੋਈ ਡਾਰਕ ਸਾਈਡ ਸਮੱਗਰੀ ਨਹੀਂ।",
+    authCookieAccept: "ਕੂਕੀਜ਼ ਤੁਹਾਡੇ ਨਾਲ ਹੋਣ", authCookieDecline: "ਮੈਂ ਪਾਸ ਕਰਾਂਗਾ, ਧੰਨਵਾਦ",
+    authPrivacy: "ਗੋਪਨੀਯਤਾ ਨੀਤੀ", authSupport: "ਸਹਾਇਤਾ"
   },
   hr: {
     logo: "भारत", navHome: "मुख्य पृष्ठ", navAbout: "म्हारै बारे म", navGallery: "गैलरी", navFeatures: "खासियत", heroTitle: "विरासत",
@@ -107,7 +127,12 @@ const translations = {
     chap6Num: "अध्याय 06", chap6Title: "व्यंजन मसाला मार्ग स्कैनर", chap6Desc: "एआई कंप्यूटर विज़न क्षेत्रीय पकवान के इतिहास अर प्राचीन मसाला व्यापार नै डिकोड करै सै।",
     chap7Num: "अध्याय 07", chap7Title: "परंपरा विद्या अन्वेषण", chap7Desc: "जियो-फेंस्ड गामिफाइड हेरिटेज एक्सप्लोरेशन डिजिटल रिवॉर्ड्स अर स्थानीय कारीगरां की छूट नै अनलॉक करै सै।",
     chap8Num: "अध्याय 08", chap8Title: "कला-कृति डिजिटल ट्राई-ऑन", chap8Desc: "एआर बॉडी सेगमेंटेशन जिसतै पर्यटक क्षेत्रीय हथकरघा कपड़ां नै डिजिटल रूप तै पहण सकैं सैं।",
-    getStarted: "शुरू करां"
+    getStarted: "शुरू करां",
+    authClose: "[ बंद कर ]", authWork: "काम", authStudio: "स्टूडियो", authLab: "लैब", authContact: "संपर्क",
+    authJoinTitle: "विरासत तै जुड़", authJoinDesc: "अपणी विरासत की यात्रा अर कलाकृतियां नै अनलॉक कर।", authEmail: "ईमेल एड्रेस",
+    authCookieTitle: "घणे दिन पैहल्या, एक दूर के ब्राउज़र म...", authCookieDesc: "साइट किसा चालै सै, न्यू समझण खातिर हम कुकीज़ का इस्तेमाल करां सैं - कोई बुरी बात कोन्या, कोई डार्क साइड का सौदा कोन्या।",
+    authCookieAccept: "कुकीज़ थारै गेल रैं", authCookieDecline: "मैं ना ल्यूं, धन्यवाद",
+    authPrivacy: "प्राइवेसी पॉलिसी", authSupport: "मदद"
   }
 };
 
@@ -118,7 +143,11 @@ function switchLanguage(langCode) {
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     if(dict[key]) {
-      el.innerText = dict[key];
+      if (el.tagName === 'INPUT' && el.hasAttribute('placeholder')) {
+        el.setAttribute('placeholder', dict[key]);
+      } else {
+        el.innerText = dict[key];
+      }
     }
   });
 }
