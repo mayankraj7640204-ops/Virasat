@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virasat | Indian Heritage</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+<main class="site-shell">
+  <section class="cinema-scroll" id="cinema" aria-label="Virasat cinematic scroll story">
+    <div class="stage">
+      <div class="world">
+        <img class="scene-img sky-img" src="https://raft-blast-61784561.figma.site/_assets/v11/16b5007d9c93971e26ffe4e0e3e37946f6bd538c.png" alt="">
+        <header class="site-header" aria-label="Primary navigation">
+          <a class="site-logo" href="#cinema" style="display: flex; align-items: center; gap: 8px;">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="Indian Flag" style="width: 24px; height: 16px; object-fit: cover; border-radius: 2px;">
+            <span data-i18n="logo">INDIA</span>
+          </a>
+          
+          <nav class="site-nav" aria-label="Main menu">
+            <a href="#cinema" data-i18n="navHome">Home</a>
+            <a href="#cinema" data-i18n="navAbout">About</a>
+            <a href="#cinema" data-i18n="navGallery">Gallery</a>
+            <a href="#cinema" data-i18n="navFeatures">Features</a>
+          </nav>
+          
+          <div class="header-right" style="display: flex; align-items: center; gap: 24px; justify-self: end;">
+            <div class="language-dropdown-container">
+              <button class="language-switcher" aria-label="Change language">
+                <span id="current-lang">EN</span><span aria-hidden="true">⌄</span>
+              </button>
+              <div class="language-menu">
+                <button data-lang="en">English</button>
+                <button data-lang="hi">हिन्दी (Hindi)</button>
+                <button data-lang="kn">ಕನ್ನಡ (Kannada)</button>
+                <button data-lang="pa">ਪੰਜਾਬੀ (Punjabi)</button>
+                <button data-lang="hr">हरियाणवी (Haryanvi)</button>
+              </div>
+            </div>
+            
+            <button class="hamburger-menu" aria-label="Open menu" style="background: transparent; border: none; cursor: pointer; display: flex; flex-direction: column; gap: 6px; padding: 0;">
+              <span style="display: block; width: 24px; height: 2px; background: rgba(253,241,225,0.86); transition: 0.3s;"></span>
+              <span style="display: block; width: 24px; height: 2px; background: rgba(253,241,225,0.86); transition: 0.3s;"></span>
+              <span style="display: block; width: 16px; height: 2px; background: rgba(253,241,225,0.86); transition: 0.3s;"></span>
+            </button>
+          </div>
+        </header>
+
+        <div class="back-stack">
+          <img class="scene-img back-img back-four" src="https://raft-blast-61784561.figma.site/_assets/v11/8a7f8af50e0ce92ec2e228e7b0b4112178c51cf1.png" alt="">
+          <section class="sights-slider" aria-label="Heritage sights slider">
+            <div class="sights-track">
+              <!-- Card 1 -->
+              <article class="sight-card" tabindex="0" role="button">
+                <span class="sight-kicker" data-i18n="card1Kicker">Timeless Architecture</span>
+                <img class="sight-pin" src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260730_230438_d526b8b6-8a2e-4e3b-9993-3908acae03a7.png" alt="">
+                <h3 class="sight-title" data-i18n="card1Title">Temples of Hampi</h3>
+                <p class="sight-desc" data-i18n="card1Desc">Stone chariots and monolithic ruins echoing the glory of the Vijayanagara Empire.</p>
+              </article>
+              <!-- Card 2 -->
+              <article class="sight-card" tabindex="0" role="button">
+                <span class="sight-kicker" data-i18n="card2Kicker">Spiritual Heart</span>
+                <img class="sight-pin" src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260730_230442_140bc25b-b165-4249-904a-f708bff6970e.png" alt="">
+                <h3 class="sight-title" data-i18n="card2Title">Varanasi Ghats</h3>
+                <p class="sight-desc" data-i18n="card2Desc">The world's oldest living city, where ancient rituals meet the sacred Ganges.</p>
+              </article>
+              <!-- Card 3 -->
+              <article class="sight-card" tabindex="0" role="button">
+                <span class="sight-kicker" data-i18n="card3Kicker">Royal Legacy</span>
+                <img class="sight-pin" src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260730_230448_825949c9-ccdb-4857-b4a6-e349eccc9010.png" alt="">
+                <h3 class="sight-title" data-i18n="card3Title">Rajputana Forts</h3>
+                <p class="sight-desc" data-i18n="card3Desc">Impregnable hill forts in Rajasthan featuring intricate palaces and sweeping views.</p>
+              </article>
+              <!-- Card 4 -->
+              <article class="sight-card" tabindex="0" role="button">
+                <span class="sight-kicker" data-i18n="card4Kicker">Living Arts</span>
+                <img class="sight-pin" src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260730_230438_d526b8b6-8a2e-4e3b-9993-3908acae03a7.png" alt="">
+                <h3 class="sight-title" data-i18n="card4Title">Classical Traditions</h3>
+                <p class="sight-desc" data-i18n="card4Desc">From Bharatanatyam to ancient copper craft, a culture that lives and breathes today.</p>
+              </article>
+              <!-- Card 5 -->
+              <article class="sight-card" tabindex="0" role="button">
+                <span class="sight-kicker" data-i18n="card5Kicker">Natural Heritage</span>
+                <img class="sight-pin" src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260730_230442_140bc25b-b165-4249-904a-f708bff6970e.png" alt="">
+                <h3 class="sight-title" data-i18n="card5Title">Kerala Backwaters</h3>
+                <p class="sight-desc" data-i18n="card5Desc">An interconnected network of ancient trade routes and serene ecological harmony.</p>
+              </article>
+            </div>
+          </section>
+          <img class="scene-img back-img back-tradition" src="https://raft-blast-61784561.figma.site/_assets/v11/864afe00e41e2fa20a5aa546e15cb807e0f81384.png" alt="">
+        </div>
+        
+        <div class="sights-controls" aria-label="Slider controls">
+          <button class="sight-nav sight-prev" aria-label="Previous sight">←</button>
+          <button class="sight-nav sight-next" aria-label="Next sight">→</button>
+        </div>
+        
+        <h1 class="hero-title" data-i18n="heroTitle">VIRASAT</h1>
+        
+        <img class="scene-img splitframe-img splitframe-left" src="https://raft-blast-61784561.figma.site/_assets/v11/7536d7b60a1fce482cf6edf3f0bffd3bad5d0f8a.png" alt="">
+        <img class="scene-img splitframe-img splitframe-right" src="https://raft-blast-61784561.figma.site/_assets/v11/392db6a6a6b98e868bd7f8d3f55bb719d51e5028.png" alt="">
+        <img class="scene-img monument-img" src="https://raft-blast-61784561.figma.site/_assets/v11/c6a6d8ef49bca43f708aa852692942c45ec950d4.png" alt="">
+        <img class="scene-img frame-two-img" src="https://raft-blast-61784561.figma.site/_assets/v11/ba75252bab2b1c510987b74837770f7bc8a6b2d4.png" alt="">
+        <div class="shade"></div>
+      </div>
+
+      <section class="intro-copy" aria-label="Virasat overview">
+        <p data-i18n="introText">A vibrant tapestry of ancient stone, sweeping landscapes, and unbroken living traditions shaping a breathtaking cultural journey across the Indian subcontinent.</p>
+        <div class="hero-tags" aria-label="Virasat highlights">
+          <span data-i18n="tag1">Ancient Heritage</span>
+          <span data-i18n="tag2">Living Arts</span>
+          <span data-i18n="tag3">Spiritual Journey</span>
+        </div>
+      </section>
+      
+      <section class="story-panel story-panel-bridge">
+        <h2 data-i18n="panel1Title">Stones that speak.</h2>
+        <p data-i18n="panel1Desc">India's monuments are architectural compasses bridging millennia of art, astronomy, and dynastic history.</p>
+      </section>
+      <section class="story-panel story-panel-bazaar">
+        <h2 data-i18n="panel2Title">The living pulse.</h2>
+        <p data-i18n="panel2Desc">Culture here is not just observed in museums; it is experienced in every street, festival, and artisan's craft.</p>
+      </section>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-headline">
+        <h2>Empowering Immersive<br>Heritage Journeys</h2>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <a href="#">Platform</a>
+          <a href="#">Technology</a>
+          <a href="#">Blockchain ID</a>
+          <a href="#">Analytics</a>
+          <a href="#">Partners</a>
+        </div>
+        <div class="footer-col">
+          <a href="#">About Us</a>
+          <a href="#">News</a>
+          <a href="#">Careers</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="footer-col">
+          <a href="#">LinkedIn</a>
+          <a href="#">Follow Us on X</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-divider"></div>
+    <div class="footer-pattern"></div>
+    
+    <div class="footer-bottom">
+      <div class="footer-logo-wrapper">
+        <div class="footer-logo-icon"></div>
+        <span class="footer-logo-text">Virasat</span>
+      </div>
+      <div class="footer-legal">
+        <span>© 2026 Virasat. All rights reserved.</span>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <span>Designed for <strong>SIH</strong></span>
+      </div>
+    </div>
+  </footer>
+</main>
+</body>
+</html>
