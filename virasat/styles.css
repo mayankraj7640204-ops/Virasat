@@ -330,7 +330,7 @@ button { border:0; font:inherit; }
 .get-started-btn {
   margin-top: 24px;
   background: var(--paper);
-  color: var(--obsidian);
+  color: var(--ink);
   border: none;
   border-radius: 30px;
   padding: 14px 32px;
