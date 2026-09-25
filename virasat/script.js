@@ -18,7 +18,8 @@ const translations = {
     chap5Num: "CHAPTER 05", chap5Title: "Pratidhvani Spatial Audio", chap5Desc: "3D binaural acoustic reconstruction simulating classical royal courts and temple chants on location.",
     chap6Num: "CHAPTER 06", chap6Title: "Vyanjan Spice Route Scanner", chap6Desc: "AI computer vision breaking down regional culinary history and ancient spice trade origins.",
     chap7Num: "CHAPTER 07", chap7Title: "Parampara Lore Quests", chap7Desc: "Geo-fenced gamified heritage exploration unlocking digital rewards and local artisan discounts.",
-    chap8Num: "CHAPTER 08", chap8Title: "Kala-Kriti Digital Try-On", chap8Desc: "AR body segmentation allowing tourists to digitally drape regional handloom textiles and weaves."
+    chap8Num: "CHAPTER 08", chap8Title: "Kala-Kriti Digital Try-On", chap8Desc: "AR body segmentation allowing tourists to digitally drape regional handloom textiles and weaves.",
+    getStarted: "Get Started"
   },
   hi: {
     logo: "भारत", navHome: "मुख्य पृष्ठ", navAbout: "हमारे बारे में", navGallery: "गैलरी", navFeatures: "विशेषताएं", heroTitle: "विरासत",
@@ -39,7 +40,8 @@ const translations = {
     chap5Num: "अध्याय 05", chap5Title: "प्रतिध्वनि स्थानिक ऑडियो", chap5Desc: "3डी बाइनॉरल ध्वनिक पुनर्निर्माण शास्त्रीय दरबारों और मंदिर के मंत्रों का अनुकरण करता है।",
     chap6Num: "अध्याय 06", chap6Title: "व्यंजन मसाला मार्ग स्कैनर", chap6Desc: "एआई कंप्यूटर विज़न क्षेत्रीय पाक इतिहास और प्राचीन मसाला व्यापार की उत्पत्ति को डिकोड करता है।",
     chap7Num: "अध्याय 07", chap7Title: "परंपरा विद्या अन्वेषण", chap7Desc: "जियो-फेंस्ड गामिफाइड हेरिटेज एक्सप्लोरेशन डिजिटल रिवॉर्ड्स और स्थानीय कारीगर छूट अनलॉक करता है।",
-    chap8Num: "अध्याय 08", chap8Title: "कला-कृति डिजिटल ट्राई-ऑन", chap8Desc: "एआर बॉडी सेगमेंटेशन जिससे पर्यटक क्षेत्रीय हथकरघा वस्त्रों को डिजिटल रूप से पहन सकते हैं।"
+    chap8Num: "अध्याय 08", chap8Title: "कला-कृति डिजिटल ट्राई-ऑन", chap8Desc: "एआर बॉडी सेगमेंटेशन जिससे पर्यटक क्षेत्रीय हथकरघा वस्त्रों को डिजिटल रूप से पहन सकते हैं।",
+    getStarted: "शुरू करें"
   },
   kn: {
     logo: "ಭಾರತ", navHome: "ಮುಖಪುಟ", navAbout: "ನಮ್ಮ ಬಗ್ಗೆ", navGallery: "ಗ್ಯಾಲರಿ", navFeatures: "ವೈಶಿಷ್ಟ್ಯಗಳು", heroTitle: "ವಿರಾಸತ್",
@@ -60,7 +62,8 @@ const translations = {
     chap5Num: "ಅಧ್ಯಾಯ 05", chap5Title: "ಪ್ರತಿಧ್ವನಿ ಪ್ರಾದೇಶಿಕ ಆಡಿಯೋ", chap5Desc: "3D ಬೈನಾಮರಲ್ ಅಕೌಸ್ಟಿಕ್ ಪುನರ್ನಿರ್ಮಾಣವು ಶಾಸ್ತ್ರೀಯ ರಾಜಮನೆತನದ ಆಸ್ಥಾನಗಳು ಮತ್ತು ದೇವಾಲಯದ ಮಂತ್ರಗಳನ್ನು ಅನುಕರಿಸುತ್ತದೆ.",
     chap6Num: "ಅಧ್ಯಾಯ 06", chap6Title: "ವ್ಯಂಜನ್ ಮಸಾಲೆ ಮಾರ್ಗ ಸ್ಕ್ಯಾನರ್", chap6Desc: "AI ಕಂಪ್ಯೂಟರ್ ದೃಷ್ಟಿ ಪ್ರಾದೇಶಿಕ ಪಾಕಶಾಲೆಯ ಇತಿಹಾಸ ಮತ್ತು ಪ್ರಾಚೀನ ಮಸಾಲೆ ವ್ಯಾಪಾರದ ಮೂಲವನ್ನು ಡಿಕೋಡ್ ಮಾಡುತ್ತದೆ.",
     chap7Num: "ಅಧ್ಯಾಯ 07", chap7Title: "ಪರಂಪರಾ ಇತಿಹಾಸದ ಕ್ವೆಸ್ಟ್‌ಗಳು", chap7Desc: "ಜಿಯೋ-ಫೆನ್ಸ್ಡ್ ಗ್ಯಾಮಿಫೈಡ್ ಹೆರಿಟೇಜ್ ಅನ್ವೇಷಣೆಯು ಡಿಜಿಟಲ್ ಪ್ರತಿಫಲಗಳು ಮತ್ತು ಸ್ಥಳೀಯ ಕುಶಲಕರ್ಮಿಗಳ ರಿಯಾಯಿತಿಗಳನ್ನು ಅನ್ಲಾಕ್ ಮಾಡುತ್ತದೆ.",
-    chap8Num: "ಅಧ್ಯಾಯ 08", chap8Title: "ಕಲಾ-ಕೃತಿ ಡಿಜಿಟಲ್ ಟ್ರೈ-ಆನ್", chap8Desc: "ಪ್ರಾದೇಶಿಕ ಕೈಮಗ್ಗದ ಜವಳಿಗಳನ್ನು ಡಿಜಿಟಲ್ ಆಗಿ ಧರಿಸಲು ಪ್ರವಾಸಿಗರಿಗೆ ಅವಕಾಶ ನೀಡುವ AR ದೇಹ ವಿಭಾಗ."
+    chap8Num: "ಅಧ್ಯಾಯ 08", chap8Title: "ಕಲಾ-ಕೃತಿ ಡಿಜಿಟಲ್ ಟ್ರೈ-ಆನ್", chap8Desc: "ಪ್ರಾದೇಶಿಕ ಕೈಮಗ್ಗದ ಜವಳಿಗಳನ್ನು ಡಿಜಿಟಲ್ ಆಗಿ ಧರಿಸಲು ಪ್ರವಾಸಿಗರಿಗೆ ಅವಕಾಶ ನೀಡುವ AR ದೇಹ ವಿಭಾಗ.",
+    getStarted: "ಪ್ರಾರಂಭಿಸಿ"
   },
   pa: {
     logo: "ਭਾਰਤ", navHome: "ਮੁੱਖ ਪੰਨਾ", navAbout: "ਸਾਡੇ ਬਾਰੇ", navGallery: "ਗੈਲਰੀ", navFeatures: "ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ", heroTitle: "ਵਿਰਾਸਤ",
@@ -81,7 +84,8 @@ const translations = {
     chap5Num: "ਅਧਿਆਇ 05", chap5Title: "ਪ੍ਰਤੀਧਵਨੀ ਸਥਾਨਿਕ ਆਡੀਓ", chap5Desc: "3D ਬਾਇਨੋਰਲ ਧੁਨੀ ਪੁਨਰ ਨਿਰਮਾਣ ਜੋ ਕਲਾਸੀਕਲ ਸ਼ਾਹੀ ਅਦਾਲਤਾਂ ਅਤੇ ਮੰਦਰ ਦੇ ਮੰਤਰਾਂ ਦੀ ਨਕਲ ਕਰਦਾ ਹੈ।",
     chap6Num: "ਅਧਿਆਇ 06", chap6Title: "ਵਿਅੰਜਨ ਮਸਾਲਾ ਰੂਟ ਸਕੈਨਰ", chap6Desc: "AI ਕੰਪਿਊਟਰ ਵਿਜ਼ਨ ਖੇਤਰੀ ਰਸੋਈ ਇਤਿਹਾਸ ਅਤੇ ਪ੍ਰਾਚੀਨ ਮਸਾਲਾ ਵਪਾਰ ਦੇ ਮੂਲ ਨੂੰ ਡੀਕੋਡ ਕਰਦਾ ਹੈ।",
     chap7Num: "ਅਧਿਆਇ 07", chap7Title: "ਪਰੰਪਰਾ ਇਤਿਹਾਸ ਦੀਆਂ ਖੋਜਾਂ", chap7Desc: "ਜੀਓ-ਫੈਂਸਡ ਗੇਮੀਫਾਈਡ ਹੈਰੀਟੇਜ ਖੋਜ ਡਿਜੀਟਲ ਇਨਾਮ ਅਤੇ ਸਥਾਨਕ ਕਾਰੀਗਰਾਂ ਦੀਆਂ ਛੋਟਾਂ ਨੂੰ ਅਨਲੌਕ ਕਰਦੀ ਹੈ।",
-    chap8Num: "ਅਧਿਆਇ 08", chap8Title: "ਕਲਾ-ਕ੍ਰਿਤੀ ਡਿਜੀਟਲ ਟਰਾਈ-ਆਨ", chap8Desc: "AR ਸਰੀਰ ਵਿਭਾਜਨ ਜੋ ਸੈਲਾਨੀਆਂ ਨੂੰ ਡਿਜ਼ੀਟਲ ਤੌਰ 'ਤੇ ਖੇਤਰੀ ਹੈਂਡਲੂਮ ਟੈਕਸਟਾਈਲ ਪਹਿਨਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ।"
+    chap8Num: "ਅਧਿਆਇ 08", chap8Title: "ਕਲਾ-ਕ੍ਰਿਤੀ ਡਿਜੀਟਲ ਟਰਾਈ-ਆਨ", chap8Desc: "AR ਸਰੀਰ ਵਿਭਾਜਨ ਜੋ ਸੈਲਾਨੀਆਂ ਨੂੰ ਡਿਜ਼ੀਟਲ ਤੌਰ 'ਤੇ ਖੇਤਰੀ ਹੈਂਡਲੂਮ ਟੈਕਸਟਾਈਲ ਪਹਿਨਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ।",
+    getStarted: "ਸ਼ੁਰੂ ਕਰੋ"
   },
   hr: {
     logo: "भारत", navHome: "मुख्य पृष्ठ", navAbout: "म्हारै बारे म", navGallery: "गैलरी", navFeatures: "खासियत", heroTitle: "विरासत",
@@ -102,7 +106,8 @@ const translations = {
     chap5Num: "अध्याय 05", chap5Title: "प्रतिध्वनि स्थानिक ऑडियो", chap5Desc: "3डी बाइनॉरल ध्वनिक पुनर्निर्माण जो शाही दरबारां अर मंदिर के मंत्रां की नकल करै सै।",
     chap6Num: "अध्याय 06", chap6Title: "व्यंजन मसाला मार्ग स्कैनर", chap6Desc: "एआई कंप्यूटर विज़न क्षेत्रीय पकवान के इतिहास अर प्राचीन मसाला व्यापार नै डिकोड करै सै।",
     chap7Num: "अध्याय 07", chap7Title: "परंपरा विद्या अन्वेषण", chap7Desc: "जियो-फेंस्ड गामिफाइड हेरिटेज एक्सप्लोरेशन डिजिटल रिवॉर्ड्स अर स्थानीय कारीगरां की छूट नै अनलॉक करै सै।",
-    chap8Num: "अध्याय 08", chap8Title: "कला-कृति डिजिटल ट्राई-ऑन", chap8Desc: "एआर बॉडी सेगमेंटेशन जिसतै पर्यटक क्षेत्रीय हथकरघा कपड़ां नै डिजिटल रूप तै पहण सकैं सैं।"
+    chap8Num: "अध्याय 08", chap8Title: "कला-कृति डिजिटल ट्राई-ऑन", chap8Desc: "एआर बॉडी सेगमेंटेशन जिसतै पर्यटक क्षेत्रीय हथकरघा कपड़ां नै डिजिटल रूप तै पहण सकैं सैं।",
+    getStarted: "शुरू करां"
   }
 };
 

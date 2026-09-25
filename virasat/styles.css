@@ -373,9 +373,10 @@ button { border:0; font:inherit; }
   margin-bottom: 80px;
 }
 .auth-logo {
-  font-family: 'Cinzel', serif;
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 1.5rem;
-  letter-spacing: 2px;
+  font-weight: 700;
+  letter-spacing: 4px;
 }
 .auth-close-btn {
   background: transparent;
@@ -401,6 +402,7 @@ button { border:0; font:inherit; }
   .auth-modal-content {
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
   .auth-left, .auth-right {
     width: 45%;
@@ -413,12 +415,12 @@ button { border:0; font:inherit; }
   gap: 20px;
 }
 .auth-nav a {
-  font-size: 4rem;
-  font-weight: 500;
+  font-size: 6rem;
+  font-weight: 400;
   text-decoration: none;
   color: #fff;
-  line-height: 1.1;
-  letter-spacing: -1px;
+  line-height: 1;
+  letter-spacing: -2px;
   transition: opacity 0.3s;
 }
 .auth-nav a:hover {
