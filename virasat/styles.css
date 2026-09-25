@@ -43,14 +43,14 @@ body { min-height:100%; margin:0; overflow-x:clip; background:#0b1110; }
 button { border:0; font:inherit; }
 .site-shell { min-height:100vh; }
 
-#app-loading-container { position: fixed; inset: 0; z-index: 9999; background: #586326; display: flex; justify-content: center; align-items: center; transition: opacity 0.8s ease, visibility 0.8s ease; overflow: hidden; }
+#app-loading-container { position: fixed; inset: 0; z-index: 9999; background: #0b1110; display: flex; justify-content: center; align-items: center; transition: opacity 0.8s ease, visibility 0.8s ease; overflow: hidden; }
 #app-loading-container.is-hidden { opacity: 0; visibility: hidden; pointer-events: none; }
-.loader-film-strip { position: absolute; left: -10vw; width: 120vw; height: 80px; background-image: repeating-linear-gradient(90deg, #2a3212 0px, #2a3212 50px, transparent 50px, transparent 65px, #697836 65px, #697836 115px, transparent 115px, transparent 130px, #dbe0c4 130px, #dbe0c4 180px, transparent 180px, transparent 195px); background-size: 195px 80px; animation: move-film 2s linear infinite; }
+.loader-film-strip { position: absolute; left: -10vw; width: 120vw; height: 80px; background-image: repeating-linear-gradient(90deg, #141d1b 0px, #141d1b 50px, transparent 50px, transparent 65px, #23322f 65px, #23322f 115px, transparent 115px, transparent 130px, #fdf1e1 130px, #fdf1e1 180px, transparent 180px, transparent 195px); background-size: 195px 80px; animation: move-film 2s linear infinite; }
 .loader-film-strip.top { top: 8%; transform: rotate(-1.5deg); }
 .loader-film-strip.bottom { bottom: 8%; transform: rotate(-1.5deg); }
-.loader-text { font-family: Inter, sans-serif; font-size: clamp(4rem, 12vw, 9rem); font-weight: 900; color: #dbe0c4; letter-spacing: -4px; text-transform: lowercase; z-index: 2; animation: pulse-text 1.5s ease-in-out infinite; }
+.loader-text { font-family: Inter, sans-serif; font-size: clamp(4rem, 12vw, 9rem); font-weight: 900; color: #fdf1e1; letter-spacing: -4px; text-transform: lowercase; z-index: 2; animation: pop-text 0.8s cubic-bezier(0.25, 1.5, 0.5, 1) infinite alternate; }
 @keyframes move-film { 0% { background-position: 0 0; } 100% { background-position: -195px 0; } }
-@keyframes pulse-text { 0%, 100% { opacity: 0.85; transform: scale(0.98); } 50% { opacity: 1; transform: scale(1.02); } }
+@keyframes pop-text { 0% { transform: scale(1); } 100% { transform: scale(1.15); } }
 
 .cinema-scroll { position: relative; height: calc(100vh + 3700px); }
 .stage { position: sticky; top: 0; height: 100vh; min-height: 620px; overflow: hidden; isolation: isolate; background: #7fb4d4; }
