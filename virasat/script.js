@@ -395,3 +395,32 @@ document.querySelectorAll('.chapter-card').forEach(card => {
     alert(`Launching Virasat Feature Module: Chapter 0${chapterId} - Initializing immersive ecosystem...`);
   });
 });
+
+// Auth / Menu Modal Logic (Produx Inspired)
+const openAuthBtn = document.getElementById('open-auth');
+const closeAuthBtn = document.getElementById('close-auth');
+const authModal = document.getElementById('auth-modal');
+
+if (openAuthBtn && authModal) {
+  openAuthBtn.addEventListener('click', () => {
+    authModal.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  });
+}
+
+if (closeAuthBtn && authModal) {
+  closeAuthBtn.addEventListener('click', () => {
+    authModal.classList.remove('is-open');
+    document.body.style.overflow = '';
+  });
+}
+
+// Close Auth Modal on clicking outside content area
+if (authModal) {
+  authModal.addEventListener('click', (e) => {
+    if (e.target === authModal) {
+      authModal.classList.remove('is-open');
+      document.body.style.overflow = '';
+    }
+  });
+}

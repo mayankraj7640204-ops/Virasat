@@ -119,6 +119,7 @@
           <span data-i18n="tag2">Living Arts</span>
           <span data-i18n="tag3">Spiritual Journey</span>
         </div>
+        <button class="get-started-btn" id="open-auth" data-i18n="getStarted">Get Started</button>
       </section>
       
       <section class="story-panel story-panel-bridge">
@@ -239,6 +240,63 @@
         <p data-i18n="chap8Desc">AR body segmentation allowing tourists to digitally drape regional handloom textiles and weaves.</p>
         <span class="chapter-explore" data-i18n="exploreBtn">EXPLORE →</span>
       </div>
+    </div>
+  </div>
+</div>
+<!-- Auth / Menu Modal Overlay (Produx Inspired) -->
+<div class="auth-modal-overlay" id="auth-modal">
+  <div class="auth-modal-header">
+    <div class="auth-logo">VIRASAT</div>
+    <button class="auth-close-btn" id="close-auth">[ CLOSE ]</button>
+  </div>
+  
+  <div class="auth-modal-content">
+    <div class="auth-left">
+      <nav class="auth-nav">
+        <a href="#">Work</a>
+        <a href="#">Studio</a>
+        <a href="#">Lab</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+    
+    <div class="auth-right">
+      <div class="auth-form-container">
+        <img src="https://raft-blast-61784561.figma.site/_assets/v11/8a7f8af50e0ce92ec2e228e7b0b4112178c51cf1.png" alt="Join Virasat" class="auth-image">
+        <h3>Join Virasat</h3>
+        <p>Unlock personalized heritage journeys and artifacts.</p>
+        
+        <form class="auth-form" onsubmit="event.preventDefault();">
+          <div class="input-group">
+            <input type="email" placeholder="EMAIL ADDRESS" required>
+            <button type="submit" aria-label="Submit">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+          </div>
+        </form>
+        
+        <div class="auth-cookie-notice">
+          <div class="cookie-icon">🏛️</div>
+          <div class="cookie-text">
+            <strong>A long time ago, in a browser far far away...</strong>
+            <p>We use cookies to understand how the site performs – nothing sinister, no dark side stuff.</p>
+            <div class="cookie-actions">
+              <span class="cookie-accept">MAY THE COOKIES BE WITH YOU</span>
+              <span class="cookie-decline">I'LL PASS, THANKS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="auth-modal-footer">
+    <div class="auth-footer-links">
+      <a href="#">PRIVACY POLICY</a>
+      <a href="#">SUPPORT</a>
+    </div>
+    <div class="auth-footer-copyright">
+      © 2026 VIRASAT PLATFORM. ALL RIGHTS RESERVED.
     </div>
   </div>
 </div>
