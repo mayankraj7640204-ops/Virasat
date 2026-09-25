@@ -73,6 +73,15 @@ function switchLanguage(langCode) {
   });
 }
 
+window.addEventListener("load", () => {
+  const loader = document.getElementById("app-loading-container");
+  if (loader) {
+    setTimeout(() => {
+      loader.classList.add("is-hidden");
+    }, 600); // 600ms minimum display time for visual feedback
+  }
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll('.language-menu button').forEach(btn => {
     btn.addEventListener('click', (e) => {
