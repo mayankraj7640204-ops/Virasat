@@ -9,7 +9,12 @@ const translations = {
     card2Kicker: "Spiritual Heart", card2Title: "Varanasi Ghats", card2Desc: "The world's oldest living city, where ancient rituals meet the sacred Ganges.",
     card3Kicker: "Royal Legacy", card3Title: "Rajputana Forts", card3Desc: "Impregnable hill forts in Rajasthan featuring intricate palaces and sweeping views.",
     card4Kicker: "Living Arts", card4Title: "Classical Traditions", card4Desc: "From Bharatanatyam to ancient copper craft, a culture that lives and breathes today.",
-    card5Kicker: "Natural Heritage", card5Title: "Kerala Backwaters", card5Desc: "An interconnected network of ancient trade routes and serene ecological harmony."
+    card5Kicker: "Natural Heritage", card5Title: "Kerala Backwaters", card5Desc: "An interconnected network of ancient trade routes and serene ecological harmony.",
+    chaptersSubtitle: "VIRASAT JOURNEY", chaptersTitle: "EXPLORE THE CHAPTERS", exploreBtn: "EXPLORE →",
+    chap1Num: "CHAPTER 01", chap1Title: "The Archive of Monuments", chap1Desc: "Interactive 3D structural mapping and historical reconstruction of India's architectural marvels.",
+    chap2Num: "CHAPTER 02", chap2Title: "Kathakar AI Guide", chap2Desc: "Conversational lore and historical narratives powered by Google Gemini, speaking fluent local folklore.",
+    chap3Num: "CHAPTER 03", chap3Title: "Lipika Script Lens", chap3Desc: "Real-time optical character recognition decoding ancient Brahmi, Pali, and Sanskrit stone inscriptions.",
+    chap4Num: "CHAPTER 04", chap4Title: "Blockchain Yatra Passports", chap4Desc: "Cryptographic digital stamps and NFTs verifying your journey across India's cultural corridors."
   },
   hi: {
     logo: "भारत", navHome: "मुख्य पृष्ठ", navAbout: "हमारे बारे में", navGallery: "गैलरी", navFeatures: "विशेषताएं", heroTitle: "विरासत",
@@ -21,7 +26,12 @@ const translations = {
     card2Kicker: "आध्यात्मिक हृदय", card2Title: "वाराणसी के घाट", card2Desc: "दुनिया का सबसे पुराना जीवित शहर, जहां प्राचीन अनुष्ठान पवित्र गंगा से मिलते हैं।",
     card3Kicker: "शाही विरासत", card3Title: "राजपूताना किले", card3Desc: "राजस्थान के अभेद्य पहाड़ी किले जिनमें जटिल महल और मनोरम दृश्य हैं।",
     card4Kicker: "जीवित कलाएं", card4Title: "शास्त्रीय परंपराएं", card4Desc: "भरतनाट्यम से लेकर प्राचीन तांबे के शिल्प तक, एक ऐसी संस्कृति जो आज भी जीवित है और सांस लेती है।",
-    card5Kicker: "प्राकृतिक विरासत", card5Title: "केरल बैकवाटर्स", card5Desc: "प्राचीन व्यापार मार्गों और शांत पारिस्थितिक सद्भाव का एक परस्पर नेटवर्क।"
+    card5Kicker: "प्राकृतिक विरासत", card5Title: "केरल बैकवाटर्स", card5Desc: "प्राचीन व्यापार मार्गों और शांत पारिस्थितिक सद्भाव का एक परस्पर नेटवर्क।",
+    chaptersSubtitle: "विरासत यात्रा", chaptersTitle: "अध्याय एक्सप्लोर करें", exploreBtn: "एक्सप्लोर करें →",
+    chap1Num: "अध्याय 01", chap1Title: "स्मारकों का पुरालेख", chap1Desc: "भारत के वास्तुशिल्प चमत्कारों का इंटरैक्टिव 3डी संरचनात्मक मानचित्रण और ऐतिहासिक पुनर्निर्माण।",
+    chap2Num: "अध्याय 02", chap2Title: "कथाकार एआई गाइड", chap2Desc: "Google Gemini द्वारा संचालित संवादी विद्या और ऐतिहासिक आख्यान, जो स्थानीय लोककथाएं बोलते हैं।",
+    chap3Num: "अध्याय 03", chap3Title: "लिपि स्क्रिप्ट लेंस", chap3Desc: "प्राचीन ब्राह्मी, पाली और संस्कृत पत्थर के शिलालेखों को डिकोड करने वाली वास्तविक समय की ऑप्टिकल चरित्र मान्यता।",
+    chap4Num: "अध्याय 04", chap4Title: "ब्लॉकचेन यात्रा पासपोर्ट", chap4Desc: "भारत के सांस्कृतिक गलियारों में आपकी यात्रा की पुष्टि करने वाले क्रिप्टोग्राफिक डिजिटल टिकट और एनएफटी।"
   },
   kn: {
     logo: "ಭಾರತ", navHome: "ಮುಖಪುಟ", navAbout: "ನಮ್ಮ ಬಗ್ಗೆ", navGallery: "ಗ್ಯಾಲರಿ", navFeatures: "ವೈಶಿಷ್ಟ್ಯಗಳು", heroTitle: "ವಿರಾಸತ್",
@@ -33,7 +43,12 @@ const translations = {
     card2Kicker: "ಆಧ್ಯಾತ್ಮಿಕ ಹೃದಯ", card2Title: "ವಾರಣಾಸಿ ಘಾಟ್ಗಳು", card2Desc: "ಪ್ರಾಚೀನ ಆಚರಣೆಗಳು ಪವಿತ್ರ ಗಂಗೆಯನ್ನು ಸಂಧಿಸುವ ವಿಶ್ವದ ಅತ್ಯಂತ ಹಳೆಯ ಜೀವಂತ ನಗರ.",
     card3Kicker: "ರಾಜ ಪರಂಪರೆ", card3Title: "ರಜಪೂತಾನ ಕೋಟೆಗಳು", card3Desc: "ಸಂಕೀರ್ಣವಾದ ಅರಮನೆಗಳು ಮತ್ತು ವಿಸ್ತಾರವಾದ ನೋಟಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ರಾಜಸ್ಥಾನದ ಭೇದಿಸಲಾಗದ ಬೆಟ್ಟದ ಕೋಟೆಗಳು.",
     card4Kicker: "ಜೀವಂತ ಕಲೆಗಳು", card4Title: "ಶಾಸ್ತ್ರೀಯ ಸಂಪ್ರದಾಯಗಳು", card4Desc: "ಭರತನಾಟ್ಯದಿಂದ ಪ್ರಾಚೀನ ತಾಮ್ರದ ಕರಕುಶಲತೆಯವರೆಗೆ, ಇಂದಿಗೂ ಜೀವಿಸುವ ಮತ್ತು ಉಸಿರಾಡುವ ಸಂಸ್ಕೃತಿ.",
-    card5Kicker: "ನೈಸರ್ಗಿಕ ಪರಂಪರೆ", card5Title: "ಕೇರಳ ಬ್ಯಾಕ್ವಾಟರ್ಸ್", card5Desc: "ಪ್ರಾಚೀನ ವ್ಯಾಪಾರ ಮಾರ್ಗಗಳು ಮತ್ತು ಪ್ರಶಾಂತ ಪರಿಸರ ಸಾಮರಸ್ಯದ ಪರಸ್ಪರ ಜಾಲ."
+    card5Kicker: "ನೈಸರ್ಗಿಕ ಪರಂಪರೆ", card5Title: "ಕೇರಳ ಬ್ಯಾಕ್ವಾಟರ್ಸ್", card5Desc: "ಪ್ರಾಚೀನ ವ್ಯಾಪಾರ ಮಾರ್ಗಗಳು ಮತ್ತು ಪ್ರಶಾಂತ ಪರಿಸರ ಸಾಮರಸ್ಯದ ಪರಸ್ಪರ ಜಾಲ.",
+    chaptersSubtitle: "ವಿರಾಸತ್ ಪ್ರಯಾಣ", chaptersTitle: "ಅಧ್ಯಾಯಗಳನ್ನು ಅನ್ವೇಷಿಸಿ", exploreBtn: "ಅನ್ವೇಷಿಸಿ →",
+    chap1Num: "ಅಧ್ಯಾಯ 01", chap1Title: "ಸ್ಮಾರಕಗಳ ಆರ್ಕೈವ್", chap1Desc: "ಭಾರತದ ವಾಸ್ತುಶಿಲ್ಪದ ಅದ್ಭುತಗಳ ಸಂವಾದಾತ್ಮಕ 3D ರಚನಾತ್ಮಕ ಮ್ಯಾಪಿಂಗ್ ಮತ್ತು ಐತಿಹಾಸಿಕ ಪುನರ್ನಿರ್ಮಾಣ.",
+    chap2Num: "ಅಧ್ಯಾಯ 02", chap2Title: "ಕಥಾಕರ್ AI ಮಾರ್ಗದರ್ಶಿ", chap2Desc: "ಸ್ಥಳೀಯ ಜಾನಪದವನ್ನು ನಿರರ್ಗಳವಾಗಿ ಮಾತನಾಡುವ Google Gemini ಯಿಂದ ನಡೆಸಲ್ಪಡುವ ಸಂವಾದಾತ್ಮಕ ಕಥೆ ಮತ್ತು ಐತಿಹಾಸಿಕ ನಿರೂಪಣೆಗಳು.",
+    chap3Num: "ಅಧ್ಯಾಯ 03", chap3Title: "ಲಿಪಿಕಾ ಸ್ಕ್ರಿಪ್ಟ್ ಲೆನ್ಸ್", chap3Desc: "ಪ್ರಾಚೀನ ಬ್ರಾಹ್ಮಿ, ಪಾಲಿ ಮತ್ತು ಸಂಸ್ಕೃತ ಕಲ್ಲಿನ ಶಾಸನಗಳನ್ನು ಡಿಕೋಡ್ ಮಾಡುವ ನೈಜ-ಸಮಯದ ಆಪ್ಟಿಕಲ್ ಅಕ್ಷರ ಗುರುತಿಸುವಿಕೆ.",
+    chap4Num: "ಅಧ್ಯಾಯ 04", chap4Title: "ಬ್ಲಾಕ್‌ಚೈನ್ ಯಾತ್ರಾ ಪಾಸ್‌ಪೋರ್ಟ್‌ಗಳು", chap4Desc: "ಭಾರತದ ಸಾಂಸ್ಕೃತಿಕ ಕಾರಿಡಾರ್‌ಗಳಾದ್ಯಂತ ನಿಮ್ಮ ಪ್ರಯಾಣವನ್ನು ಪರಿಶೀಲಿಸುವ ಕ್ರಿಪ್ಟೋಗ್ರಾಫಿಕ್ ಡಿಜಿಟಲ್ ಸ್ಟ್ಯಾಂಪ್‌ಗಳು ಮತ್ತು NFT ಗಳು."
   },
   pa: {
     logo: "ਭਾਰਤ", navHome: "ਮੁੱਖ ਪੰਨਾ", navAbout: "ਸਾਡੇ ਬਾਰੇ", navGallery: "ਗੈਲਰੀ", navFeatures: "ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ", heroTitle: "ਵਿਰਾਸਤ",
@@ -45,7 +60,12 @@ const translations = {
     card2Kicker: "ਅਧਿਆਤਮਿਕ ਦਿਲ", card2Title: "ਵਾਰਾਣਸੀ ਦੇ ਘਾਟ", card2Desc: "ਦੁਨੀਆ ਦਾ ਸਭ ਤੋਂ ਪੁਰਾਣਾ ਜੀਵਤ ਸ਼ਹਿਰ, ਜਿੱਥੇ ਪ੍ਰਾਚੀਨ ਰੀਤੀ-ਰਿਵਾਜ ਪਵਿੱਤਰ ਗੰਗਾ ਨੂੰ ਮਿਲਦੇ ਹਨ।",
     card3Kicker: "ਸ਼ਾਹੀ ਵਿਰਾਸਤ", card3Title: "ਰਾਜਪੂਤਾਨਾ ਕਿਲੇ", card3Desc: "ਰਾਜਸਥਾਨ ਦੇ ਅਭੇਦ ਪਹਾੜੀ ਕਿਲੇ ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਗੁੰਝਲਦਾਰ ਮਹਿਲ ਅਤੇ ਸ਼ਾਨਦਾਰ ਦ੍ਰਿਸ਼ ਹਨ।",
     card4Kicker: "ਜੀਵਤ ਕਲਾਵਾਂ", card4Title: "ਕਲਾਸੀਕਲ ਪਰੰਪਰਾਵਾਂ", card4Desc: "ਭਰਤਨਾਟਿਅਮ ਤੋਂ ਲੈ ਕੇ ਪ੍ਰਾਚੀਨ ਤਾਂਬੇ ਦੀ ਕਲਾ ਤੱਕ, ਇੱਕ ਅਜਿਹਾ ਸੱਭਿਆਚਾਰ ਜੋ ਅੱਜ ਵੀ ਜਿਉਂਦਾ ਹੈ ਅਤੇ ਸਾਹ ਲੈਂਦਾ ਹੈ।",
-    card5Kicker: "ਕੁਦਰਤੀ ਵਿਰਾਸਤ", card5Title: "ਕੇਰਲ ਬੈਕਵਾਟਰਸ", card5Desc: "ਪ੍ਰਾਚੀਨ ਵਪਾਰਕ ਮਾਰਗਾਂ ਅਤੇ ਸ਼ਾਂਤ ਵਾਤਾਵਰਣਕ ਸਦਭਾਵਨਾ ਦਾ ਆਪਸ ਵਿੱਚ ਜੁੜਿਆ ਨੈਟਵਰਕ।"
+    card5Kicker: "ਕੁਦਰਤੀ ਵਿਰਾਸਤ", card5Title: "ਕੇਰਲ ਬੈਕਵਾਟਰਸ", card5Desc: "ਪ੍ਰਾਚੀਨ ਵਪਾਰਕ ਮਾਰਗਾਂ ਅਤੇ ਸ਼ਾਂਤ ਵਾਤਾਵਰਣਕ ਸਦਭਾਵਨਾ ਦਾ ਆਪਸ ਵਿੱਚ ਜੁੜਿਆ ਨੈਟਵਰਕ।",
+    chaptersSubtitle: "ਵਿਰਾਸਤ ਯਾਤਰਾ", chaptersTitle: "ਅਧਿਆਇ ਐਕਸਪਲੋਰ ਕਰੋ", exploreBtn: "ਐਕਸਪਲੋਰ ਕਰੋ →",
+    chap1Num: "ਅਧਿਆਇ 01", chap1Title: "ਸਮਾਰਕਾਂ ਦਾ ਪੁਰਾਲੇਖ", chap1Desc: "ਭਾਰਤ ਦੇ ਆਰਕੀਟੈਕਚਰਲ ਅਜੂਬਿਆਂ ਦੀ ਇੰਟਰਐਕਟਿਵ 3D ਢਾਂਚਾਗਤ ਮੈਪਿੰਗ ਅਤੇ ਇਤਿਹਾਸਕ ਪੁਨਰ ਨਿਰਮਾਣ।",
+    chap2Num: "ਅਧਿਆਇ 02", chap2Title: "ਕਥਾਕਾਰ ਏਆਈ ਗਾਈਡ", chap2Desc: "ਗੂਗਲ ਜੇਮਿਨੀ ਦੁਆਰਾ ਸੰਚਾਲਿਤ ਗੱਲਬਾਤ ਦੀ ਵਿਦਿਆ ਅਤੇ ਇਤਿਹਾਸਕ ਬਿਰਤਾਂਤ, ਸਥਾਨਕ ਲੋਕਧਾਰਾ ਬੋਲਦੇ ਹੋਏ।",
+    chap3Num: "ਅਧਿਆਇ 03", chap3Title: "ਲਿਪਿਕਾ ਸਕ੍ਰਿਪਟ ਲੈਂਸ", chap3Desc: "ਪ੍ਰਾਚੀਨ ਬ੍ਰਾਹਮੀ, ਪਾਲੀ, ਅਤੇ ਸੰਸਕ੍ਰਿਤ ਪੱਥਰ ਦੇ ਸ਼ਿਲਾਲੇਖਾਂ ਨੂੰ ਡੀਕੋਡ ਕਰਨ ਵਾਲੀ ਰੀਅਲ-ਟਾਈਮ ਆਪਟੀਕਲ ਅੱਖਰ ਮਾਨਤਾ।",
+    chap4Num: "ਅਧਿਆਇ 04", chap4Title: "ਬਲਾਕਚੈਨ ਯਾਤਰਾ ਪਾਸਪੋਰਟ", chap4Desc: "ਭਾਰਤ ਦੇ ਸੱਭਿਆਚਾਰਕ ਗਲਿਆਰਿਆਂ ਵਿੱਚ ਤੁਹਾਡੀ ਯਾਤਰਾ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਵਾਲੀਆਂ ਕ੍ਰਿਪਟੋਗ੍ਰਾਫਿਕ ਡਿਜੀਟਲ ਟਿਕਟਾਂ ਅਤੇ NFT।"
   },
   hr: {
     logo: "भारत", navHome: "मुख्य पृष्ठ", navAbout: "म्हारै बारे म", navGallery: "गैलरी", navFeatures: "खासियत", heroTitle: "विरासत",
@@ -57,7 +77,12 @@ const translations = {
     card2Kicker: "आध्यात्मिक दिल", card2Title: "वाराणसी के घाट", card2Desc: "दुनिया का सबतै पुराणा जीवित शहर, जड़ै पुराणे रीति-रिवाज़ पवित्र गंगा तै मिलैं सैं।",
     card3Kicker: "शाही विरासत", card3Title: "राजपूताना किले", card3Desc: "राजस्थान के ना टूटन आले पहाड़ी किले जिन्मै सुथरे महल अर गज़ब के नज़ारे सैं।",
     card4Kicker: "जीवित कला", card4Title: "शास्त्रीय परंपराएं", card4Desc: "भरतनाट्यम तै लेकै पुराणे तांबे के शिल्प तक, एक इसी संस्कृति जो आज भी ज़िंदा सै अर सांस लेवै सै।",
-    card5Kicker: "प्राकृतिक विरासत", card5Title: "केरल बैकवाटर्स", card5Desc: "पुराणे व्यापार रास्तों अर शांत पर्यावरण का आपस में जुड़्या होया नेटवर्क।"
+    card5Kicker: "प्राकृतिक विरासत", card5Title: "केरल बैकवाटर्स", card5Desc: "पुराणे व्यापार रास्तों अर शांत पर्यावरण का आपस में जुड़्या होया नेटवर्क।",
+    chaptersSubtitle: "विरासत की यात्रा", chaptersTitle: "अध्याय देख्याँ", exploreBtn: "देखें →",
+    chap1Num: "अध्याय 01", chap1Title: "स्मारकां का पुरालेख", chap1Desc: "भारत के वास्तुशिल्प चमत्कारां का इंटरैक्टिव 3डी संरचनात्मक मानचित्रण और ऐतिहासिक पुनर्निर्माण।",
+    chap2Num: "अध्याय 02", chap2Title: "कथाकार एआई गाइड", chap2Desc: "गूगल जेमिनी द्वारा संचालित संवादी विद्या अर ऐतिहासिक आख्यान, जो स्थानीय लोककथा बोलै सै।",
+    chap3Num: "अध्याय 03", chap3Title: "लिपि स्क्रिप्ट लेंस", chap3Desc: "प्राचीन ब्राह्मी, पाली अर संस्कृत पत्थर के शिलालेखों ने डिकोड करण आली रियल-टाइम ऑप्टिकल चरित्र मान्यता।",
+    chap4Num: "अध्याय 04", chap4Title: "ब्लॉकचेन यात्रा पासपोर्ट", chap4Desc: "भारत के सांस्कृतिक गलियारां म थारी यात्रा की पुष्टि करण आले क्रिप्टोग्राफिक डिजिटल टिकट अर एनएफटी।"
   }
 };
 
