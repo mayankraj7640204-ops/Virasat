@@ -7,8 +7,9 @@
   <link rel="icon" type="image/png" href="logo.png?v=2" />
   <link rel="shortcut icon" type="image/png" href="logo.png?v=2" />
   <link rel="apple-touch-icon" href="logo.png?v=2" />
-  <link rel="stylesheet" href="styles.css?v=9" />
-  <script src="script.js?v=9" defer></script>
+  <link rel="stylesheet" href="styles.css?v=30" />
+  <script src="env.js"></script>
+  <script src="script_main.js?v=30" defer></script>
 </head>
 <body>
 <div id="app-loading-container">
@@ -214,10 +215,10 @@
       </div>
       <!-- Chapter 5 -->
       <div class="chapter-card" data-chapter="5">
-        <span class="chapter-num" data-i18n="chap5Num">CHAPTER 05</span>
-        <h3 data-i18n="chap5Title">Pratidhvani Spatial Audio</h3>
-        <p data-i18n="chap5Desc">3D binaural acoustic reconstruction simulating classical royal courts and temple chants on location.</p>
-        <span class="chapter-explore" data-i18n="exploreBtn">EXPLORE →</span>
+        <span class="chapter-num">CHAPTER 05</span>
+        <h3>Tirth-Yatra Crowd Forecast</h3>
+        <p>Predictive analytics engine estimating live foot traffic and optimal visiting hours for congested temples and historical shrines.</p>
+        <span class="chapter-explore">EXPLORE →</span>
       </div>
       <!-- Chapter 6 -->
       <div class="chapter-card" data-chapter="6">
@@ -299,6 +300,262 @@
       © 2026 VIRASAT PLATFORM. ALL RIGHTS RESERVED.
     </div>
   </div>
+</div>
+<!-- Feature 1 Modal: Archive of Monuments -->
+<div class="feature-modal-overlay" id="feature-1-modal">
+  <div class="feature-modal-container">
+    <button class="feature-close-btn" id="close-feature-1">×</button>
+    
+    <div class="feature-header">
+      <span class="feature-tag">CHAPTER 01 MODULE</span>
+      <h2>The Archive of Monuments</h2>
+      <p>Select a historical site to inspect architectural blueprints, dynastic eras, and structural integrity modeling.</p>
+    </div>
+
+    <!-- Custom Monument Search Bar -->
+    <div class="custom-monument-search-box">
+      <input type="text" id="custom-monument-input" placeholder="Type any Indian monument (e.g., Mysore Palace, Ajanta Caves)..." />
+      <button id="custom-monument-btn">Generate Custom 3D Mesh ↗</button>
+    </div>
+
+    <div class="monument-grid">
+      <!-- Monument 1 -->
+      <div class="monument-item" data-name="Hampi Chariot" data-dynasty="Vijayanagara Empire (1565 CE)" data-material="Monolithic Granite">
+        <h3>Hampi Stone Chariot</h3>
+        <span class="mon_dynasty">Vijayanagara Empire</span>
+        <p>A shrine dedicated to Garuda carved from a single block of granite, representing peak symmetry.</p>
+        <button class="inspect-btn">Load 3D Wireframe</button>
+      </div>
+      <!-- Monument 2 -->
+      <div class="monument-item" data-name="Konark Sun Temple" data-dynasty="Eastern Ganga Dynasty (1250 CE)" data-material="Khondalite Stone">
+        <h3>Konark Sun Temple</h3>
+        <span class="mon_dynasty">Eastern Ganga Dynasty</span>
+        <p>A colossal cosmic chariot of Surya with 24 intricate stone wheels functioning as exact sundials.</p>
+        <button class="inspect-btn">Load 3D Wireframe</button>
+      </div>
+      <!-- Monument 3 -->
+      <div class="monument-item" data-name="Brihadeeswarar Temple" data-dynasty="Chola Dynasty (1010 CE)" data-material="Interlocking Granite">
+        <h3>Brihadeeswarar Temple</h3>
+        <span class="mon_dynasty">Chola Dynasty</span>
+        <p>An engineering marvel featuring an 80-tonne cupola capstone hoisted without mortar.</p>
+        <button class="inspect-btn">Load 3D Wireframe</button>
+      </div>
+      <!-- Monument 4 -->
+      <div class="monument-item" data-name="Qutb Minar Tower" data-dynasty="Delhi Sultanate (1193 CE)" data-material="Red Sandstone & Marble">
+        <h3>Qutb Minar Tower</h3>
+        <span class="mon_dynasty">Delhi Sultanate</span>
+        <p>A 73-meter tapering victory tower featuring intricate Quranic inscriptions and flanged shaft balconies.</p>
+        <button class="inspect-btn">Load 3D Wireframe</button>
+      </div>
+      <!-- Monument 5 -->
+      <div class="monument-item" data-name="Rani ki Vav Stepwell" data-dynasty="Chaulukya Dynasty (1060 CE)" data-material="Carved Sandstone">
+        <h3>Rani ki Vav Stepwell</h3>
+        <span class="mon_dynasty">Chaulukya Dynasty</span>
+        <p>An inverted temple architecture subterranean water resource decorated with over 500 major sculptures.</p>
+        <button class="inspect-btn">Load 3D Wireframe</button>
+      </div>
+      <!-- Monument 6 -->
+      <div class="monument-item" data-name="Taj Mahal Mausoleum" data-dynasty="Mughal Empire (1653 CE)" data-material="Makrana White Marble">
+        <h3>Taj Mahal Mausoleum</h3>
+        <span class="mon_dynasty">Mughal Empire</span>
+        <p>A symmetrical masterpiece of white marble featuring pietra dura floral inlays and a majestic double dome.</p>
+        <button class="inspect-btn">Load 3D Wireframe</button>
+      </div>
+    </div>
+
+    <!-- Cinematic Monument Spotlight Display -->
+    <div class="inspector-display" id="inspector-output">
+      <div class="spotlight-card-wrapper">
+        <div class="spotlight-img-container">
+          <img id="spotlight-img" src="images/taj.png" alt="Monument Spotlight" crossorigin="anonymous" />
+          <div class="spotlight-badge">VERIFIED ARCHIVAL TWIN</div>
+        </div>
+        <div class="wireframe-overlay-info" id="wireframe-info">
+          <strong>[SELECT A MONUMENT ABOVE TO LOAD ARCHIVAL TELEMETRY]</strong><br>
+          Connected to Google Gemini API for real-time historical verification.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Feature 2 Modal: Kathakar AI Guide with Sidebar History -->
+<div class="feature-modal-overlay" id="feature-2-modal">
+  <div class="feature-modal-container kathakar-workspace">
+    <button class="feature-close-btn" id="close-feature-2">×</button>
+    
+    <!-- Sidebar History Panel -->
+    <div class="kathakar-sidebar">
+      <button class="new-chat-btn" id="new-chat-btn">+ New Lore Session</button>
+      <span class="sidebar-section-title">Recent Conversations</span>
+      <div class="chat-history-list" id="chat-history-list">
+        <!-- History items populated via JS -->
+      </div>
+    </div>
+
+    <!-- Main Chat Area -->
+    <div class="kathakar-main-chat">
+      <div class="feature-header-mini">
+        <span class="feature-tag">CHAPTER 02 MODULE</span>
+        <h2>Kathakar AI Guide</h2>
+      </div>
+
+      <div class="chat-messages" id="chat-messages">
+        <div class="chat-msg ai-msg">
+          <span>Namaste, traveler. I am Kathakar. Ask me about the legends of Hampi, the secrets of the Chola temples, or any monument on your journey.</span>
+        </div>
+      </div>
+
+      <div class="prompt-chips">
+        <button class="chip" data-query="What is the legend behind the Hampi Stone Chariot?">Hampi Chariot Legend</button>
+        <button class="chip" data-query="How was the heavy cupola capstone placed on the Brihadeeswarar Temple?">Chola Engineering</button>
+        <button class="chip" data-query="Tell me about the astronomical secrets of Konark Sun Temple.">Konark Sundials</button>
+      </div>
+
+      <div class="chat-input-area">
+        <input type="text" id="chat-input" placeholder="Ask Kathakar a historical question..." />
+        <button id="send-chat-btn">Send ↗</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Full-Screen Chapter 03: Lipika Script Lens -->
+<div class="fullscreen-feature-view" id="fullscreen-chapter-03">
+  <header class="feature-nav">
+    <button class="back-btn" id="back-from-ch3">← Return to Chapters</button>
+    <div class="nav-title">CHAPTER 03: LIPIKA SCRIPT LENS</div>
+    <div class="nav-status">LIVE EPIGRAPHIC OCR & DATING ENGINE</div>
+  </header>
+
+  <main class="dashboard-layout">
+    <div class="epigraph-workspace" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start;">
+      
+      <!-- Left: Upload & Scanner Panel -->
+      <div class="scanner-panel">
+        <h1 class="dashboard-heading" style="font-size: 2.5rem;">Epigraphic Workbench</h1>
+        <p class="dashboard-subtext" style="margin-bottom: 20px;">Upload an image of an ancient Indian inscription. Our AI will analyze stroke morphology to date the artifact, decipher the script, and extract its historical meaning.</p>
+        
+        <label class="ch3-upload-zone" for="ch3-file-input">
+          <div id="ch3-upload-placeholder">
+            <span style="font-size: 2rem;">📸</span><br>
+            <strong>Click or Drop Image Here</strong><br>
+            <span style="font-size: 0.85rem; color: rgba(253,241,225,0.5);">Supports high-res stone edicts, palm leaves, & copper plates</span>
+          </div>
+          <img id="ch3-preview-img" src="" alt="Artifact Preview" style="display: none;" />
+          <div class="ch3-laser-scan" id="ch3-laser" style="display: none;"></div>
+          <input type="file" id="ch3-file-input" accept="image/*" style="display: none;" />
+        </label>
+      </div>
+
+      <!-- Right: Telemetry & Deciphering Output -->
+      <div class="epigraph-telemetry" id="ch3-telemetry" style="opacity: 0.3; pointer-events: none; display: flex; flex-direction: column; gap: 20px;">
+        
+        <div class="telemetry-card" style="background: rgba(212, 114, 44, 0.1); border-color: rgba(212, 114, 44, 0.4);">
+          <span class="card-label" style="color: #d4722c;">MORPHOLOGICAL DATING ESTIMATE</span>
+          <h3 id="ch3-era-output" class="dynamic-value" style="color: var(--paper); font-size: 1.5rem; margin: 8px 0;">Awaiting artifact...</h3>
+          <p id="ch3-script-type" class="context-text" style="color: #ffcc00; font-family: monospace;">--</p>
+        </div>
+
+        <div class="telemetry-card">
+          <span class="card-label">EXTRACTED GLYPHS</span>
+          <h3 id="ch3-glyph-output" class="dynamic-value" style="font-family: serif; letter-spacing: 2px;">--</h3>
+        </div>
+
+        <div class="telemetry-card optimal-card">
+          <span class="card-label highlight-label">MODERN TRANSLATION</span>
+          <p id="ch3-translation-output" class="context-text highlight-text" style="font-size: 1.1rem; line-height: 1.6; margin-top: 10px;">--</p>
+        </div>
+
+        <div class="telemetry-card">
+          <span class="card-label">HISTORICAL SIGNIFICANCE (ARCHAEOLOGICAL CONTEXT)</span>
+          <p id="ch3-context-output" class="context-text" style="margin-top: 10px;">--</p>
+        </div>
+
+      </div>
+    </div>
+  </main>
+</div>
+<!-- Full-Screen Chapter 05: Tirth-Yatra Forecast -->
+<div class="fullscreen-feature-view" id="fullscreen-chapter-05">
+  <header class="feature-nav">
+    <button class="back-btn" id="back-from-ch5">← Return to Chapters</button>
+    <div class="nav-title">CHAPTER 05: TIRTH-YATRA FORECAST</div>
+    <div class="nav-status">LIVE AI PREDICTIVE MODELING</div>
+  </header>
+
+  <main class="dashboard-layout">
+    <div class="search-panel">
+      <h1 class="dashboard-heading">Pilgrimage Crowd Analytics</h1>
+      <p class="dashboard-subtext">Enter any sacred heritage site to simulate live footfall, peak congestion hours, and optimal visiting windows using our AI forecasting model.</p>
+      
+      <div class="search-box-wrapper">
+        <input type="text" id="ch5-site-search" placeholder="E.g., Vaishno Devi, Golden Temple, Madurai Meenakshi..." />
+        <button id="ch5-analyze-btn">Run Analytics ↗</button>
+      </div>
+    </div>
+
+    <div class="telemetry-grid">
+      <div class="telemetry-card">
+        <span class="card-label">CURRENT DENSITY MODEL</span>
+        <h3 id="ch5-density-output" class="dynamic-value">--</h3>
+        <div class="progress-track"><div class="progress-fill" id="ch5-density-bar"></div></div>
+      </div>
+
+      <div class="telemetry-card">
+        <span class="card-label">PEAK CONGESTION WINDOW</span>
+        <h3 id="ch5-peak-output" class="dynamic-value">--</h3>
+        <p id="ch5-peak-reason" class="context-text">Awaiting location data...</p>
+      </div>
+
+      <div class="telemetry-card optimal-card">
+        <span class="card-label highlight-label">AI OPTIMAL VISIT WINDOW</span>
+        <h3 id="ch5-optimal-output" class="dynamic-value highlight-value">--</h3>
+        <p id="ch5-optimal-reason" class="context-text highlight-text">Run analysis for recommendations.</p>
+      </div>
+    </div>
+  </main>
+</div>
+<!-- Full-Screen Chapter 06: Kala-Bazaar Artisan Heritage -->
+<div class="fullscreen-feature-view" id="fullscreen-chapter-06">
+  <header class="feature-nav">
+    <button class="back-btn" id="back-from-ch6">← Return to Chapters</button>
+    <div class="nav-title">CHAPTER 06: KALA-BAZAAR (ARTISAN HERITAGE)</div>
+    <div class="nav-status">LIVE AI CRAFT & GI TAG SCANNER</div>
+  </header>
+
+  <main class="dashboard-layout">
+    <div class="search-panel">
+      <h1 class="dashboard-heading">Regional Artisan Archive</h1>
+      <p class="dashboard-subtext">Enter any Indian city, state, or region to instantly retrieve its ancient handicrafts, Geographical Indication (GI) tags, and authenticity markers to support local artisans.</p>
+      
+      <div class="search-box-wrapper">
+        <input type="text" id="ch6-region-search" placeholder="E.g., Kanchipuram, Kutch, Mysore, Varanasi..." />
+        <button id="ch6-explore-btn">Discover Crafts ↗</button>
+      </div>
+    </div>
+
+    <!-- Dynamic Telemetry Output -->
+    <div class="craft-telemetry-container" id="ch6-output-container" style="display: none;">
+      <div class="telemetry-header">
+        <h2 id="ch6-region-title" style="font-family: 'Cinzel', serif; color: var(--paper); margin: 0; font-size: 2rem;">--</h2>
+        <span id="ch6-gi-status" style="background: rgba(75, 181, 67, 0.15); color: #4bb543; padding: 6px 12px; border-radius: 6px; font-family: monospace; font-size: 12px; border: 1px solid rgba(75, 181, 67, 0.4);">GI TAG VERIFIED</span>
+      </div>
+      
+      <div class="telemetry-grid" style="margin-top: 30px;">
+        <div class="telemetry-card" style="grid-column: span 2;">
+          <span class="card-label">PRIMARY HERITAGE CRAFT & HISTORY</span>
+          <h3 id="ch6-craft-name" class="dynamic-value" style="margin: 10px 0;">--</h3>
+          <p id="ch6-craft-history" class="context-text" style="font-size: 1.05rem;">Awaiting regional scan...</p>
+        </div>
+
+        <div class="telemetry-card">
+          <span class="card-label" style="color: #ffcc00;">AUTHENTICITY MARKERS (HOW TO SPOT FAKES)</span>
+          <ul id="ch6-auth-markers" style="color: rgba(253, 241, 225, 0.8); font-size: 0.95rem; line-height: 1.6; padding-left: 20px; margin-top: 15px;">
+            <li>Input a region to load visual markers.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
 </div>
 </body>
 </html>
